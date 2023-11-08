@@ -42,7 +42,7 @@
 
 .mySlides .details h2 {
     width: 85%;
-    font-size: 23px;
+    font-size: 20px;
     color: #fff;
     /* text-align: center; */
 }
@@ -74,6 +74,14 @@ img {
 
 .details .book-btn:hover {
     transform: scale(1.05);
+}
+.details .logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    left: 9.5%;
 }
 
 /* .fade {

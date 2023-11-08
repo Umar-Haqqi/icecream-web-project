@@ -1880,7 +1880,7 @@ body {
 }
 
 .main_slider_area .rev_slider ul li .slider_text_box .first_text.pink {
-  color: #753375;  
+  color: #753375;
 }
 
 .main_slider_area .rev_slider ul li .slider_text_box .secand_text {
@@ -2772,12 +2772,26 @@ body {
   margin-bottom: 20px;
 }
 
-.discover_item_inner .discover_item p span {
-  float: right;
-  color: #e3764b;
-  font-size: 20px;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+.discover_item_inner .discover_item button {
+  /* text-decoration: none; */
+  font-size: 14px;
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  background: #F195B2;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  transition:  linear 0.2s;
+}
+
+.discover_item_inner .discover_item button:hover {
+  transform: scale(1.05);
+}
+
+.discover_item_inner .discover_item button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .menu_d_two .discover_menu_inner {
