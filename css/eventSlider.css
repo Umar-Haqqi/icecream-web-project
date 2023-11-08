@@ -1,0 +1,92 @@
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.mySlides {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.mySlides .details {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: #f75a8c;
+    left: 0;
+    padding-left: 5%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    animation-name: slide;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+.mySlides .details-1 {
+    background: #01244f;
+}
+
+.mySlides .details-2 {
+    background: #f15800;
+}
+
+.mySlides .details-3 {
+    background: #ec2463;
+}
+
+.mySlides .details h2 {
+    width: 85%;
+    font-size: 23px;
+    color: #fff;
+    /* text-align: center; */
+}
+
+img {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+    animation-name: slide;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+.details .book-btn {
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    background: transparent;
+    /* background: #f75a8c; */
+    color: #fff;
+    transition: all linear .2s;
+}
+
+.details .book-btn:hover {
+    transform: scale(1.05);
+}
+
+/* .fade {
+    animation-name: fade;
+    animation-duration: .5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .8
+    }
+
+    to {
+        opacity: 1
+    }
+} */
