@@ -133,6 +133,90 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+#bookEventPageNavLink {
+  background: #F195B2;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+#bookEventPageNavLink:hover {
+  opacity: 0.9;
+}
+
+
+/* event-type-section */
+.event-type-section {
+  background: #f0f0f0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 80px 5%;
+}
+
+.event-type-section h2 {
+  color: #f195b2;
+  font-weight: 700;
+}
+
+.event-type-section .events-type {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.event-type-section .events-type .event {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  min-height: 420px;
+  border-radius: 8px;
+  transition: all linear 0.2s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.event-type-section .events-type .event:hover{
+  background: #f195b2;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.event-type-section .events-type .event img{
+  width: 100%;
+  height: 200px;
+  background: #919292;
+  overflow: hidden;
+}
+.event-type-section .events-type .event h3{
+   font-size: 23px;
+   font-weight: 500;
+   margin: 20px 10px;
+   text-align: center;
+}
+.event-type-section .events-type .event p{
+   font-size: 12px;
+   margin: 20px 10px;
+}
+@media (max-width: 768px) {
+  html{
+    font-size: 80%;
+  }
+  .event-type-section .events-type {
+    flex-direction: column;
+  }
+}
+@media (max-width: 425px) {
+  html{
+    font-size: 60%;
+  }}
+  .service_item i:before {
+    font-size: 30px;
+}
 
 /* Main Tittle css
 ============================================================================================ */
@@ -1609,6 +1693,11 @@ body {
   border: 1px solid #e7e7e7;
 }
 
+.menu-pest_w_btn {
+  /* left: 65%; */
+  margin-bottom: 20px;
+}
+
 .pest_w_btn:before {
   background: #f195b2;
   content: "";
@@ -2008,9 +2097,10 @@ body {
 }
 
 @media (max-width:425px) {
-  .welcome_bakery_inner .welcome_img{
+  .welcome_bakery_inner .welcome_img {
     display: none;
   }
+
   /* .main_slider ul li img{
     height: 200%;width: 200%;
   } */
@@ -2261,7 +2351,15 @@ body {
   /* margin: 10px; */
   max-width: 320px;
   margin: 15px;
+  transition: linear .3s;
 }
+
+.cake_feature_row .product-dets-box:hover {
+  transform: scale(1.05);
+  color: #2f2f2f;
+}
+
+
 
 .cake_feature_row .product-dets-box .image {
   width: 320px;
@@ -2287,7 +2385,6 @@ body {
 .cake_feature_row .product-dets-box h3 {
   font-size: 20px;
   color: #F195B2;
-
 }
 
 .cake_feature_row .product-dets-box p {
@@ -2707,7 +2804,7 @@ body {
 }
 
 .service_item i:before {
-  font-size: 70px;
+  font-size: 30px;
 }
 
 .service_item h4 {
@@ -2792,7 +2889,7 @@ body {
   border-radius: 4px;
   font-weight: 600;
   margin-bottom: 25px;
-  transition:  linear 0.2s;
+  transition: linear 0.2s;
 }
 
 .discover_item_inner .discover_item button:hover {
