@@ -2007,6 +2007,16 @@ body {
   text-align: right;
 }
 
+@media (max-width:425px) {
+  .welcome_bakery_inner .welcome_img{
+    display: none;
+  }
+  /* .main_slider ul li img{
+    height: 200%;width: 200%;
+  } */
+}
+
+
 .cake_feature_inner {
   padding: 80px 0px 100px 0px;
 }
