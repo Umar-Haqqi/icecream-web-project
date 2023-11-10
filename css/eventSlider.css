@@ -14,7 +14,7 @@
     width: 50%;
     height: 100%;
     position: absolute;
-    background: #f75a8c;
+    background: #01244f;
     z-index: 9;
     left: 0;
     padding-left: 5%;
@@ -30,7 +30,7 @@
     animation-timing-function: ease-in-out;
 }
 
-.mySlides .details-1 {
+/* .mySlides .details-1 {
     background: #01244f;
 }
 
@@ -40,7 +40,7 @@
 
 .mySlides .details-3 {
     background: #ec2463;
-}
+} */
 
 .mySlides .details h2 {
     width: 85%;
